@@ -1,0 +1,183 @@
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px/1.33 "Microsoft Yahei",tahoma,"宋体",sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+#header {
+    height: 95px;
+    background: #282828;
+}
+
+.logo {
+    float: left;
+    padding-left: 120px;
+    
+}
+
+.link a {
+    color: #fff;
+}
+
+.link {
+    float:right;
+    padding: 40px 220px 0 0;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+#main {
+    height: 507px;
+    background: url(img/bg.jpg) 50% 0 no-repeat;
+}
+
+#main .inner {
+    position: relative;
+    height: 507px;
+}
+
+.inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+#main .down {
+    position: absolute;
+    left: 654px;
+    top: 280px;
+    width: 225px;
+    height: 83px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#main .date {
+    position: absolute;
+    left: 654px;
+    top: 370px;
+    color: #676767;
+    font-size: 13px;
+}
+
+#main .date em {
+    color: #5f9b04;
+    font-style: normal;
+}
+
+#footer {
+    height: 420px;
+    background: #D3D3D4;
+}
+
+#footer ul {
+    position: absolute;
+    left: 180px;
+    top: 650px;
+    height: 210px;
+}
+
+#footer li {
+    float: left;
+    width: 158px;
+    height: 210px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+#footer ul p {
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #656565;
+}
+
+#footer ul li p em {
+    font-weight: bold;
+}
+
+#footer .w-1 {
+    width: 126px;
+}
+
+#footer .w-2 {
+    width: 120px;
+}
+
+#footer .w-3 {
+    width: 133px;
+}
+
+#footer h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font: 18px/1 "Microsoft Yahei";
+}
+
+#footer i {
+    display: block;
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    background: url(img/spr.png);
+}
+
+#footer .box2 { 
+    background-position: 0 -96px;
+}
+
+#footer .box3 { 
+    background-position: 0 -192px;
+}
+
+#footer .box4 { 
+    background-position: 0 -288px;
+}
+
+#footer .box5{
+    background-position: 0 bottom;
+    width: 101px;
+}
+
+#footer i:hover { 
+    -moz-transform:rotate(20deg); 
+    -webkit-transform:rotate(20deg); 
+    -o-transform:rotate(20deg);
+}
+
+.copyright p {
+    text-align: center;
+    position: relative;
+    top: 330px;
+    line-height: 30px;
+    color: #9a9b9b;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    background: #c6c6c6;
+    top: 250px;
+}
